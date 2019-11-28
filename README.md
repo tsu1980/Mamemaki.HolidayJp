@@ -68,6 +68,7 @@ Console.WriteLine($"{date.ToString("yyyy/MM/dd")} is {(jphol.IsHoliday(date) ? "
 Console.WriteLine($"{date.ToString("yyyy/MM/dd")} is {(jphol.IsWorkingDay(date) ? "workingday" : "not workingday")}");
 Console.WriteLine($"{date.ToString("yyyy/MM/dd")}'s next workingday is {jphol.NextWorkingDay(date).ToString("yyyy/MM/dd")}");
 Console.WriteLine($"{date.ToString("yyyy/MM/dd")}'s previous workingday is {jphol.PreviousWorkingDay(date).ToString("yyyy/MM/dd")}");
+```
 
 ## API References
 
