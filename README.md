@@ -120,27 +120,27 @@ Check if a date is a weekend
 weekend means Saturday or Sunday.
 
 ##### `bool IsWorkingDay()`
-Check if today is a working day
+Check if today is a working day.
 working day means Monday to Friday and does not holiday.
 
 ##### `bool IsWorkingDay(DateTime date)`
-Check if a date is a working day
+Check if a date is a working day.
 working day means Monday to Friday and does not holiday.
 
 ##### `DateTime NextWorkingDay(DateTime date)`
-Get next working day of the specified date
+Get next working day of the specified date.
 working day means Monday to Friday and does not holiday.
 
 ##### `DateTime PreviousWorkingDay(DateTime date)`
-Get previous working day of the specified date
+Get previous working day of the specified date.
 working day means Monday to Friday and does not holiday.
 
 ## Thanks
 
 [内閣府ホームページ](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html)
-https://zariganitosh.hatenablog.jp/entry/20140929/japanese_holiday_memo
-https://www.pahoo.org/e-soul/webtech/php02/php02-27-01.shtm
-https://www.atmarkit.co.jp/ait/articles/1507/22/news024.html
+[https://zariganitosh.hatenablog.jp/entry/20140929/japanese_holiday_memo](https://zariganitosh.hatenablog.jp/entry/20140929/japanese_holiday_memo)
+[https://www.pahoo.org/e-soul/webtech/php02/php02-27-01.shtm](https://www.pahoo.org/e-soul/webtech/php02/php02-27-01.shtm)
+[https://www.atmarkit.co.jp/ait/articles/1507/22/news024.html](https://www.atmarkit.co.jp/ait/articles/1507/22/news024.html)
 
 ## License
 
