@@ -1,4 +1,4 @@
-﻿using Mamemaki.HolidayJp;
+using Mamemaki.HolidayJp;
 using System;
 using System.Collections.Generic;
 using System.Text;

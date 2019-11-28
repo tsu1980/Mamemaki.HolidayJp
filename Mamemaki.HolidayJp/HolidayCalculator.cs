@@ -1,4 +1,4 @@
-﻿using Mamemaki.HolidayJp.Rules;
+using Mamemaki.HolidayJp.Rules;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -52,7 +52,7 @@ namespace Mamemaki.HolidayJp
                 new HolidayRule_Fixed(new HolidayInfo(HolidayKind.National, "即位礼正殿の儀の行われる日", "The Ceremony of the Enthronement of His Majesty the Emperor (at the Seiden)"), 10, 22, 2019, 2019),
             };
         }
-
+        
         /// <summary>
         /// Get holidays in the specified year
         /// </summary>
