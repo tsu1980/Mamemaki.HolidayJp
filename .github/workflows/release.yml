@@ -31,7 +31,7 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v1
-    - name: Build with dotnet
+    - name: Create NuGet package
       run: dotnet pack -c Release ./Mamemaki.HolidayJp/Mamemaki.HolidayJp.csproj
     - name: Publish nuget
       run: dotnet nuget push ./Mamemaki.HolidayJp/bin/Release/Mamemaki.HolidayJp.*.nupkg -k "$NUGET_API_KEY" -s https://api.nuget.org/v3/index.json
