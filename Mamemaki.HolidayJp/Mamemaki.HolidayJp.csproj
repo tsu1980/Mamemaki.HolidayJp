@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Calculate Japan public Holidays</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Company>Mamemaki, Inc</Company>
+    <PackageTags>holiday japan</PackageTags>
+    <Copyright>Copyright Tsuyoshi Sumiyoshi 2019</Copyright>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Mamemaki/HolidayJp</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Mamemaki/HolidayJp</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="images\logo.png" Pack="true" PackagePath="" />
+  </ItemGroup>
+</Project>
