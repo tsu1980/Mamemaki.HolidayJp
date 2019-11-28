@@ -34,6 +34,6 @@ jobs:
     - name: Build with dotnet
       run: dotnet pack -c Release ./Mamemaki.HolidayJp/Mamemaki.HolidayJp.csproj
     - name: Publish nuget
-      run: dotnet nuget push ./Mamemaki.HolidayJp/bin/Release/Mamemaki.HolidayJp.*.nupkg -k $NUGET_API_KEY -s https://api.nuget.org/v3/index.json
+      run: dotnet nuget push ./Mamemaki.HolidayJp/bin/Release/Mamemaki.HolidayJp.*.nupkg -k "$NUGET_API_KEY" -s https://api.nuget.org/v3/index.json
       env:
         NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
