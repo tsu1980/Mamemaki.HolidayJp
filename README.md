@@ -85,9 +85,9 @@ Name  | Description
 
 Name  | Description
 ------------- | -------------
-`National` | [‘–¯‚Ìj“ú](https://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E7%A5%9D%E6%97%A5)
-`Citizens` | [‘–¯‚Ì‹x“ú](https://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E4%BC%91%E6%97%A5)
-`Substitute` | [U‘Ö‹x“ú](https://ja.wikipedia.org/wiki/%E6%8C%AF%E6%9B%BF%E4%BC%91%E6%97%A5)
+`National` | [å›½æ°‘ã®ç¥æ—¥](https://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E7%A5%9D%E6%97%A5)
+`Citizens` | [å›½æ°‘ã®ä¼‘æ—¥](https://ja.wikipedia.org/wiki/%E5%9B%BD%E6%B0%91%E3%81%AE%E4%BC%91%E6%97%A5)
+`Substitute` | [æŒ¯æ›¿ä¼‘æ—¥](https://ja.wikipedia.org/wiki/%E6%8C%AF%E6%9B%BF%E4%BC%91%E6%97%A5)
 
 ### HolidayCalculator class
 
@@ -137,9 +137,12 @@ working day means Monday to Friday and does not holiday.
 
 ## Thanks
 
-[“àŠt•{ƒz[ƒ€ƒy[ƒW](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html)
+[å†…é–£åºœãƒ›ãƒ¼ãƒ ãƒšãƒ¼ã‚¸](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html)
+
 [https://zariganitosh.hatenablog.jp/entry/20140929/japanese_holiday_memo](https://zariganitosh.hatenablog.jp/entry/20140929/japanese_holiday_memo)
+
 [https://www.pahoo.org/e-soul/webtech/php02/php02-27-01.shtm](https://www.pahoo.org/e-soul/webtech/php02/php02-27-01.shtm)
+
 [https://www.atmarkit.co.jp/ait/articles/1507/22/news024.html](https://www.atmarkit.co.jp/ait/articles/1507/22/news024.html)
 
 ## License
