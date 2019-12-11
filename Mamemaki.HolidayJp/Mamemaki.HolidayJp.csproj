@@ -9,10 +9,10 @@
     <PackageTags>holiday japan</PackageTags>
     <Copyright>Copyright Tsuyoshi Sumiyoshi 2019</Copyright>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/Mamemaki/HolidayJp</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Mamemaki/Mamemaki.HolidayJp</RepositoryUrl>
     <PackageIcon>logo.png</PackageIcon>
     <PackageIconUrl>https://raw.githubusercontent.com/Mamemaki/Mamemaki.HolidayJp/master/Mamemaki.HolidayJp/images/logo.png</PackageIconUrl>
-    <PackageProjectUrl>https://github.com/Mamemaki/HolidayJp</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/Mamemaki/Mamemaki.HolidayJp</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
