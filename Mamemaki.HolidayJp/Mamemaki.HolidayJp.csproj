@@ -13,6 +13,9 @@
     <PackageIcon>logo.png</PackageIcon>
     <PackageIconUrl>https://raw.githubusercontent.com/Mamemaki/Mamemaki.HolidayJp/master/Mamemaki.HolidayJp/images/logo.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/Mamemaki/Mamemaki.HolidayJp</PackageProjectUrl>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
