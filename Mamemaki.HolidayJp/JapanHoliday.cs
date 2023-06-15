@@ -23,14 +23,17 @@ namespace Mamemaki.HolidayJp
 
         private void EnsureHolidaysLoaded(int year)
         {
-            if (!loadedYears.Contains(year))
+            lock (loadedYears)
             {
-                var holidays = HolidayCalculator.GetHolidaysInYear(year);
-                foreach (var holiday in holidays)
+                if (!loadedYears.Contains(year))
                 {
-                    holidayDict.Add(holiday.Date, holiday);
+                    var holidays = HolidayCalculator.GetHolidaysInYear(year);
+                    foreach (var holiday in holidays)
+                    {
+                        holidayDict.Add(holiday.Date, holiday);
+                    }
+                    loadedYears.Add(year);
                 }
-                loadedYears.Add(year);
             }
         }
 
