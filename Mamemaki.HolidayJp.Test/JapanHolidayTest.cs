@@ -87,7 +87,7 @@ namespace Mamemaki.HolidayJp.Test
         public void SyukujitsuCsv()
         {
             var jphol = new JapanHoliday();
-            var holidays = jphol.GetHolidaysInDateRange(new DateTime(1955, 1, 1), new DateTime(2024, 12, 31))
+            var holidays = jphol.GetHolidaysInDateRange(new DateTime(1955, 1, 1), new DateTime(2025, 12, 31))
                 .Select(s => s.Date)
                 .ToList();
             var syukujitsuDates = LoadSyukujitsuCsv()
