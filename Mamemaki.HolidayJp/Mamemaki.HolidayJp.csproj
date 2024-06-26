@@ -10,6 +10,7 @@
     <Copyright>Copyright Tsuyoshi Sumiyoshi 2019</Copyright>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/Mamemaki/Mamemaki.HolidayJp</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>logo.png</PackageIcon>
     <PackageIconUrl>https://raw.githubusercontent.com/Mamemaki/Mamemaki.HolidayJp/master/Mamemaki.HolidayJp/images/logo.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/Mamemaki/Mamemaki.HolidayJp</PackageProjectUrl>
@@ -19,6 +20,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="images\logo.png" Pack="true" PackagePath="" />
   </ItemGroup>
 </Project>
