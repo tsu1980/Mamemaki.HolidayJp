@@ -1,6 +1,6 @@
 # Mamemaki.HolidayJp
 [![Actions Status](https://github.com/Mamemaki/Mamemaki.HolidayJp/workflows/Master/badge.svg)](https://github.com/Mamemaki/Mamemaki.HolidayJp/actions)
-[![NuGet Badge](https://buildstats.info/nuget/Mamemaki.HolidayJp)](https://www.nuget.org/packages/Mamemaki.HolidayJp/)
+[![NuGet Version](https://img.shields.io/nuget/v/Mamemaki.HolidayJp?label=Mamemaki.HolidayJp)](https://www.nuget.org/packages/Mamemaki.HolidayJp)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 .NET library for Calculate Japan public Holidays
